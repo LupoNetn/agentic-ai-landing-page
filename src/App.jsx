@@ -1,15 +1,18 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+import Header from './components/Header'
 
 const App = () => {
   return (
-    <>
-    <Navbar />
+   <>
+   <div className="relative">
+     <Navbar />
     <div className='container mx-auto px-8'>
      <header id='home'>
-    
+       <Header />
      </header>
     </div>
+   </div>
     </>
   )
 }

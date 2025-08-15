@@ -12,7 +12,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState();
 
   return (
-    <nav className="border border-b-gray-300 backdrop-blur-2xl sticky top-0">
+    <nav className="bg-white/30 backdrop-blur-lg sticky top-0 border border-b-gray-300 z-50">
       <div className="container mx-auto px-8 py-3 flex items-center justify-between gap-3">
         <div>
           <img src={Logo} alt="" />
@@ -37,7 +37,7 @@ const Navbar = () => {
           <img src={Moon} alt="" />
           <button className="bg-purple-700 p-2 rounded-[20px]">
             <a href="#connect" className="flex gap-2">
-              <p>Connect</p>
+              <p className="text-white">Connect</p>
               <img src={Arrow} alt="" />
             </a>
           </button>
