@@ -1,10 +1,16 @@
 import React from 'react'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <div>
-      <h1 className='text-3xl'>vbv</h1>
+    <>
+    <Navbar />
+    <div className='container mx-auto px-8'>
+     <header id='home'>
+    
+     </header>
     </div>
+    </>
   )
 }
 
