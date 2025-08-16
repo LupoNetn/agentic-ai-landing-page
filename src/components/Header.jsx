@@ -6,7 +6,7 @@ import Google from "../assets/google_logo.svg";
 import Rakuten from "../assets/rakuten_logo.png";
 import Microsoft from "../assets/microsoft_logo.png";
 import Airbnb from "../assets/airbnb_logo.svg";
-import Zoom from "../assets/Zoom_logo.png";
+import Zoom from "../assets/zoom_logo.png";
 
 const Companies = [
   { name: "Coinbase", icon: Coinbase },
