@@ -32,7 +32,7 @@ const Header = () => {
         </div>
 
         {/* Heading & Description */}
-        <div className="text-center mt-4 relative">
+        <div className="text-center mt-4 relative  overflow-x-clip">
           <h1 className="mx-auto text-gray-800 text-3xl md:text-4xl lg:text-6xl max-w-[800px] lg:leading-[4.5rem]">
             Turning imagination into{" "}
             <span className="bg-gradient-to-br from-blue-600 to-purple-500 text-transparent bg-clip-text">
@@ -54,7 +54,7 @@ const Header = () => {
               -translate-x-1/2 -translate-y-1/2
               w-[350px] h-[350px] sm:w-[450px] sm:h-[450px] md:w-[600px] md:h-[600px]
               bg-gradient-to-bl from-blue-600 to-purple-300 
-              rounded-full blur-3xl overflow-x-clip opacity-80
+              rounded-full blur-3xl opacity-80
             "
           />
 
