@@ -19,7 +19,7 @@ const Companies = [
 
 const Header = () => {
   return (
-    <section className="mt-10 sm:mt-14 md:mt-20 flex flex-col justify-center items-center">
+    <section className="mt-10 sm:mt-14 md:mt-20 flex flex-col justify-center items-center overflow-x-clip">
       <div className="relative">
         {/* Trusted Banner */}
         <div className="border border-gray-400 max-w-[270px] rounded-full text-center mx-auto">
